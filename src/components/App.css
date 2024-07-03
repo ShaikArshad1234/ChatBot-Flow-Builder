@@ -1,0 +1,39 @@
+/* src/components/FlowBuilder.css */
+.flow-builder {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.nodes-panel {
+  padding: 10px;
+  background: #f0f0f0;
+  width: 200px;
+}
+
+.settings-panel {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
+.draggable-node {
+  padding: 10px;
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.draggable-node.dragging {
+  opacity: 0.5;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+}

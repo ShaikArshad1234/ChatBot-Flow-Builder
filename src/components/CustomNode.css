@@ -1,0 +1,14 @@
+/* src/components/CustomNode.css */
+.custom-node {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #007acc;
+    color: white;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .custom-node-content {
+    font-size: 12px;
+  }
+  
